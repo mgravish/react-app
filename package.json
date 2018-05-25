@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "material-design-icons": "^3.0.1",
     "pepper-mint": "^1.7.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-google-material-icons": "^1.0.4",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.3.1",
+    "typeface-work-sans": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",

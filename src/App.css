@@ -1,10 +1,92 @@
-.App {
-  text-align: center;
+#root, .App, html, body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  position: absolute;
+  
 }
 
-.day{
-  /* background-color: red; */
-  display: inline-block;
-  width:250px;
-  height:250px;
+h1 {
+  font-size: 120px;
+  font-weight:100;
+}
+
+h2{
+  font-size: 24px;
+  font-weight:400;
+  letter-spacing: -1px;
+}
+
+.page {
+  display: flex;
+  height:100%;
+}
+
+.right {
+  display:inline-block;
+  width: 60%;
+  height: 100%;
+  background-color:rgb(240,240,240);
+  padding:0px;
+  padding-left:0px;
+  box-sizing: border-box;
+}
+
+.right .img {
+  width:100%;
+  height:100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.left{
+  display:inline-block;
+  width: 40%;
+  padding-left: 100px;
+  padding-right: 80px;
+  height: 100%;
+  background-color: white;
+}
+
+.advance-bar {
+  height: 100%;
+  background-color: rgb(255,255,255);
+  width: 100px;
+  right:0;
+  top:0;
+  position: absolute;
+  display:flex;
+  cursor: pointer;
+  transition: background-color .25s;
+}
+
+.advance-bar:hover {
+  background-color: rgb(250,250,250);
+}
+
+.advance-bar i {
+  color: rgb(200,200,200);
+  left: 40px;
+  height: 0px;
+  position: relative;
+  top: calc(50vh - 40px);
+}
+
+.progressBar{
+  height:3px;
+  width:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: red;
+  transition: width .5s;
+}
+
+.transition-container{
+  height:100%;
+  width:100%;
 }
